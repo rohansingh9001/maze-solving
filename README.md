@@ -16,7 +16,7 @@ ON LINUX  --
 2) TYPE "sudo pip install pillow".
 3) ENTER PASSWORD IF NEEDED.
 
-MAC DOES NOT HAVE IMAGE PROCESSING SUPPORT AS THERE IS NO PILLOW LIBRARY FOR IT.
+Follow similar instructions as linux for Mac OS
 
 EXECUTING THE PROGRAM --
 
