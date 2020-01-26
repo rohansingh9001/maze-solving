@@ -2,7 +2,7 @@ from PIL import Image
 
 # put imgname equal to the image to be solved
 
-imgname = "maze1.png"
+imgname = "maze.png"
 
 def array():
 
@@ -39,8 +39,9 @@ def array():
         string += line
         maze.append(row)
     
+    print(string)
     
-
+    print(maze)
     return maze
 
     # node making algorithm 
