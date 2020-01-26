@@ -1,6 +1,6 @@
 from mazegenerator import array
 
-
+#Obsolete code. No longer in use. BFSsolve.py is used as a replacement code.
 #change N according to the dimensions of your image in pixels
 N = 12
 
