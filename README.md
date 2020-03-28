@@ -6,19 +6,20 @@ Python 3+ installed and added to path
 PIL library version 6.2.0
 
 ## Installation Instructions
-Follow the instaructions to install Pillow.
-    ON WINDOWS-- 
-    1) Open command prompt enter `win + r`.
-    2) Enter `cmd`
-    2) Type ```pip install pillow```.
-           
-    ON LINUX  -- 
+Follow the instructions to install Pillow.
+
+ON LINUX:
     1) Open terminal.
     2) Type `pip3 install pillow`.
-
+    
 Follow similar instructions as linux for Mac OS
 
-## How to Use
+ON WINDOWS:
+    1) Open command prompt enter `win + r`.
+    2) Enter `cmd`
+    2) Type `pip install pillow`
+
+## How to Use:
 
 The program takes in input as an image. PNG format works best.
 The image must be purely black and white i.e. pixel values must read (0,0,0) for black and (255,255,255) for white pixels.
@@ -34,11 +35,10 @@ Also provide an padding of black pixels 1 pixel thick on the left and right side
 
 See 'maze.png' for an example.
 
-### EXECUTING THE PROGRAM --
-    1) Open Terminal/Command Prompt.
+### EXECUTING THE PROGRAM:
+The answer highlights the answer path in a blue line. It also marks the entry and exit points with green and red colours respectively.
+    1)Open Terminal/Command Prompt.
     2) Navigate to the directory where the program is saved.
     3) TYPE "python solvemaze.py" ON Windows.
     4) TYPE "python3 solvemaze.py" ON Linux.
     5) The programs forms an image called "answer.png" which contains the answer.
-
-The answer highlights the answer path in a blue line. It also marks the entry and exit points with green and red colours respectively.
