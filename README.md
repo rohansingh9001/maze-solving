@@ -10,7 +10,7 @@ Follow the instaructions to install Pillow.
     ON WINDOWS-- 
     1) Open command prompt enter `win + r`.
     2) Enter `cmd`
-    2) Type `pip install pillow`.
+    2) Type ```pip install pillow```.
            
     ON LINUX  -- 
     1) Open terminal.
