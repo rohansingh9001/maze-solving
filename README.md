@@ -9,15 +9,15 @@ PIL library version 6.2.0
 Follow the instructions to install Pillow.
 
 ON LINUX:
-    1) Open terminal.
-    2) Type `pip3 install pillow`.
+1. Open terminal.
+2. Type `pip3 install pillow`.
     
 Follow similar instructions as linux for Mac OS
 
 ON WINDOWS:
-    1) Open command prompt enter `win + r`.
-    2) Enter `cmd`
-    2) Type `pip install pillow`
+1. Open RUN or press - win + r.
+2. Enter cmd
+3. Type `pip install pillow`
 
 ## How to Use:
 
@@ -37,8 +37,8 @@ See 'maze.png' for an example.
 
 ### EXECUTING THE PROGRAM:
 The answer highlights the answer path in a blue line. It also marks the entry and exit points with green and red colours respectively.
-    1)Open Terminal/Command Prompt.
-    2) Navigate to the directory where the program is saved.
-    3) TYPE "python solvemaze.py" ON Windows.
-    4) TYPE "python3 solvemaze.py" ON Linux.
-    5) The programs forms an image called "answer.png" which contains the answer.
+1. Open Terminal/Command Prompt.
+2. Navigate to the directory where the program is saved.
+3. TYPE "python solvemaze.py" ON Windows.
+4. TYPE "python3 solvemaze.py" ON Linux.
+5. The programs forms an image called "answer.png" which contains the answer.
