@@ -1,29 +1,44 @@
 # maze-solving
 A python code for solving a maze input in the form of a image
 
-YOU NEED THE PILLOW LIBRARY AND PYTHON ADDED TO PATH, BEFORE YOU CAN RUN THE CODE. 
+### Requirements
+Python 3+ installed and added to path
+PIL library version 6.2.0
 
-TO INSTALL PYTHON AND ADD IT TO PATH WATCH A YOUTUBE VIDEO.
-
-TO INSTALL PILLOW LIBRARY FOLLOW THE FOLLOWING INSTRUCTIONS.
-
-ON WINDOWS-- 
-1) OPEN COMMAND PROMPT.
-2) TYPE "pip install pillow".
+## Installation Instructions
+Follow the instaructions to install Pillow.
+    ON WINDOWS-- 
+    1) Open command prompt enter `win + r`.
+    2) Enter `cmd`
+    2) Type `pip install pillow`.
            
-ON LINUX  -- 
-1) OPEN TERMINAL.
-2) TYPE "sudo pip install pillow".
-3) ENTER PASSWORD IF NEEDED.
+    ON LINUX  -- 
+    1) Open terminal.
+    2) Type `pip3 install pillow`.
 
 Follow similar instructions as linux for Mac OS
 
-EXECUTING THE PROGRAM --
+## How to Use
 
-1) OPEN TERMINAL/COMMAND PROMPT.
-2) NAVIGATE TO THE DIRECTORY/FOLDER WHERE ALL THE CODE IS SAVED.
-3) TYPE "python solvemaze.py" ON WINDOWS.
-4) TYPE "python3 solvemaze.py" ON LINUX.
-5) THE PROGRAM WILL PRINT THE SOLUTION IN THE FORM OF AN 2D ARRAY WHICH REPRESENTS EACH PIXEL AND THE 1 TRAIL IS THE 
-   SOLUTION PATH.
-   
+The program takes in input as an image. PNG format works best.
+The image must be purely black and white i.e. pixel values must read (0,0,0) for black and (255,255,255) for white pixels.
+The walls should be black in colour and path should be white.
+
+The entry point must be on the top row in the image. So the topmost row should have all black pixels except one,
+which will be the entry point and hence a white pixel.
+
+Similar instructions should be followed for the exit point, the exit point is found on the bottom row instead.
+Hence only one pixel should be white in the bottom row and all others should be black.
+
+Also provide an padding of black pixels 1 pixel thick on the left and right side of the walls.
+
+See 'maze.png' for an example.
+
+### EXECUTING THE PROGRAM --
+    1) Open Terminal/Command Prompt.
+    2) Navigate to the directory where the program is saved.
+    3) TYPE "python solvemaze.py" ON Windows.
+    4) TYPE "python3 solvemaze.py" ON Linux.
+    5) The programs forms an image called "answer.png" which contains the answer.
+
+The answer highlights the answer path in a blue line. It also marks the entry and exit points with green and red colours respectively.
